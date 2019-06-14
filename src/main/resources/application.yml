@@ -44,3 +44,8 @@ feign:
     enabled: true
 
 #TODO: config actuator endpoints to expose
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
